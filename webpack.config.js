@@ -10,7 +10,7 @@ module.exports = {
         app: ['./src/entry.js']
     },
     output: {
-        filename: 'static/[name].js?[hash:6]',
+        filename: 'public/[name].js?[hash:6]',
         path: path.resolve(__dirname)
     },
     devServer: {
